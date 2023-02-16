@@ -12,7 +12,7 @@ class StartServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'start');
-        //$this->runCommand();
+        $this->runCommand();
         $this->mountComponents();
         $this->livewireMerge();
     }

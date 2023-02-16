@@ -16,4 +16,7 @@ Route::namespace("App\View\Pages")->group(function () {
     Route::namespace("Backend")->group(function () {
         Route::get('dashboard', Dashboard::class)->name('dashboard');
     });
+    Route::namespace("Frontend")->group(function () {
+        Route::get('welcome', Welcome::class)->name('welcome');
+    });
 });
