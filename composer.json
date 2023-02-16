@@ -1,0 +1,27 @@
+{
+    "name": "laravel/start",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Laravel\\Start\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zerarka Mohamed Ali Akram",
+            "email": "akram.zerarka@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2",
+        "livewire/livewire": "^2.11",
+        "laravel/framework": "^10.0",
+        "laravel/tinker": "^2.8",
+        "wireui/wireui": "^1.17",
+        "sourcetoad/rule-helper-for-laravel":"^3.1"
+    }
+}
